@@ -1,0 +1,56 @@
+site_name: "Portfolio de Nathan Berlureau"
+site_description: "Développeur étudiant en BUT Informatique"
+site_author: "Natahan Berlureau"
+site_url: "https://tonportfolio.github.io/"
+repo_url: "https://github.com/tonprofil"
+repo_name: "GitHub"
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+  palette:
+    scheme: default
+    primary: indigo
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/account-circle
+
+nav:
+  - Accueil: index.md
+  - À propos: about.md
+  - Projets:
+      - Application Web: projets/webapp.md
+      - Base de données: projets/bdd.md
+      - Sécurité: projets/securite.md
+  - Compétences: competences.md
+  - Contact: contact.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nberlureau
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/nathan-berlureau-b9175829b
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - attr_list
