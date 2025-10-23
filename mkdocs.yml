@@ -2,7 +2,7 @@ site_name: "Portfolio de Nathan Berlureau"
 site_description: "Développeur étudiant en BUT Informatique"
 site_author: "Natahan Berlureau"
 site_url: "https://tonportfolio.github.io/"
-repo_url: "https://github.com/tonprofil"
+repo_url: "https://github.com/nberlureau/Portfolio"
 repo_name: "GitHub"
 
 theme:
@@ -26,7 +26,7 @@ theme:
 
 nav:
   - Accueil: index.md
-  - À propos: about.md
+  - À propos de moi: about.md
   - Projets:
       - Application Web: projets/webapp.md
       - Base de données: projets/bdd.md
